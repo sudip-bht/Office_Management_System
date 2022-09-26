@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>Images/client.png</file>
+        <file>Images/Employee-2.png</file>
+        <file>Images/KARYALAYA.png</file>
+        <file>Images/login.png</file>
+        <file>Images/office-management-system.png</file>
+        <file>Images/signup-2.png</file>
+        <file>Images/textured-background-white-tone_53876-128610.jpg</file>
+        <file>Images/user.png</file>
+        <file>Images/WeyM8.jpeg</file>
+        <file>Images/KARYALAYA-removebg-preview.png</file>
+        <file>Images/Office.jpg</file>
+        <file>Images/briefcase.png</file>
+        <file>Images/home .png</file>
+        <file>Images/employee.png</file>
+        <file>Images/refresh.png</file>
+        <file>Images/profile.png</file>
+        <file>Images/ADMIN.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>Images/comment.png</file>
+        <file>Images/plus.png</file>
+        <file>Images/logo.png</file>
+        <file>Images/Gold_Graphic_K_Letter_Real_Estate_Logo_Template-removebg-preview.png</file>
+        <file>Images/logout.png</file>
+    </qresource>
+</RCC>
