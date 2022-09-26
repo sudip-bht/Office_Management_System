@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1211</width>
+    <height>753</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Login And Registration System</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/images/KARYALAYA.png</normaloff>:/images/KARYALAYA.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color: rgb(23, 73, 134);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_4">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Images/Gold_Graphic_K_Letter_Real_Estate_Logo_Template-removebg-preview.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="label_day">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="maximumSize">
+       <size>
+        <width>550</width>
+        <height>650</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 37, 111);
+
+</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_5">
+         <property name="styleSheet">
+          <string notr="true">border-image: url(:/Images/Images/textured-background-white-tone_53876-128610.jpg);
+border-radius:20px;</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:700; color:#000103;&quot;&gt;Notices&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QListView" name="listView_notices">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>150</height>
+          </size>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+
+</string>
+         </property>
+         <property name="textElideMode">
+          <enum>Qt::ElideMiddle</enum>
+         </property>
+         <property name="horizontalScrollMode">
+          <enum>QAbstractItemView::ScrollPerPixel</enum>
+         </property>
+         <property name="movement">
+          <enum>QListView::Free</enum>
+         </property>
+         <property name="itemAlignment">
+          <set>Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QPushButton" name="pushButton_refresh">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#pushButton_refresh{
+border-radius:10px;
+	background-color: rgb(255, 255, 255);
+	image: url(:/Images/Images/refresh.png);
+}
+#pushButton_refresh:hover{
+background-color:rgba(23,231,184,1);
+}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QTextBrowser" name="textBrowser_notices">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:20px;
+
+</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="maximumSize">
+       <size>
+        <width>350</width>
+        <height>650</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 37, 111);
+</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QLabel" name="label_7">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/Images/Images/textured-background-white-tone_53876-128610.jpg);
+border-radius:10px;</string>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:700; color:#212121;&quot;&gt;Employee Details&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="employessComboBox">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>400</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(103, 101, 113);
+color: rgb(255, 255, 255);
+border-radius:10px;</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="0">
+        <widget class="QTableView" name="tableView_Employeedetails">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+
+color: rgb(0, 0, 0);</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="employeebutton">
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>200</height>
+         </size>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#employeebutton{border-image: url(:/images/Images/Employee-2.png);
+border-image: url(:/Images/Images/Employee-2.png);
+border-radius : 8px;}
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="clientbutton">
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>250</height>
+         </size>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/images/Images/client.png);
+border-image: url(:/Images/Images/client.png);
+border-radius : 8px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="2">
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="maximumSize">
+       <size>
+        <width>350</width>
+        <height>650</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+        <strikeout>true</strikeout>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 37, 111);
+</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_6">
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/Images/Images/textured-background-white-tone_53876-128610.jpg);
+border-radius:10px;</string>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:700; color:#212121;&quot;&gt;Facilities Provided&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="facilitiescomboBox">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>400</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(103, 101, 113);
+color: rgb(255, 255, 255);
+border-radius:10px;</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="0">
+        <widget class="QListView" name="facilitieslistview">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

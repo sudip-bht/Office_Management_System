@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ClientsignupDialog</class>
+ <widget class="QDialog" name="ClientsignupDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>947</width>
+    <height>699</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(66,66,66);</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>20</y>
+     <width>351</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #eee9e2;
+color: #222;
+border-radius:20px</string>
+   </property>
+   <property name="title">
+    <string>Client Signup</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <widget class="QPushButton" name="pushButton_signup">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>580</y>
+      <width>83</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>OpenHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton_signup{background-color: rgb(255, 131 ,45);
+border-radius:13px;}
+#pushButton_signup:hover{backgroundcolor:rgb(0,145,147);}</string>
+    </property>
+    <property name="text">
+     <string>SignUp</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>40</y>
+      <width>101</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/Images/Images/user.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>120</y>
+      <width>291</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #eee9e2;
+color: #222;
+border-radius:20px</string>
+       </property>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_Client_Name">
+       <property name="styleSheet">
+        <string notr="true">#lineEdit_Client_Name{
+background-color: #fbfaf9;
+border-radius:10px;
+}
+#lineEdit_Client_Name:hover{
+background-color: rgba(166,145,113,0.14);
+}
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>E-mail</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_Email">
+       <property name="styleSheet">
+        <string notr="true">#lineEdit_Email{
+background-color: #fbfaf9;
+border-radius:10px;
+}
+#lineEdit_Email:hover{
+background-color: rgba(166,145,113,0.14);
+}
+</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Phone </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_Phone">
+       <property name="styleSheet">
+        <string notr="true">#lineEdit_Phone{
+background-color: #fbfaf9;
+border-radius:10px;
+}
+#lineEdit_Phone:hover{
+background-color: rgba(166,145,113,0.14);
+}
+</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Username</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_Username">
+       <property name="styleSheet">
+        <string notr="true">#lineEdit_Username{
+background-color: #fbfaf9;
+border-radius:10px;
+}
+#lineEdit_Username:hover{
+background-color: rgba(166,145,113,0.14);
+}
+</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Password</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_Password">
+       <property name="styleSheet">
+        <string notr="true">#lineEdit_Password{
+background-color: #fbfaf9;
+border-radius:10px;
+}
+#lineEdit_Password:hover{
+background-color: rgba(166,145,113,0.14);
+}
+</string>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Confirm Password</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_Confirm_Password">
+       <property name="styleSheet">
+        <string notr="true">#lineEdit_Confirm_Password{
+background-color: #fbfaf9;
+border-radius:10px;
+}
+#lineEdit_Confirm_Password:hover{
+background-color: rgba(166,145,113,0.14);
+}</string>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Home">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>280</y>
+     <width>101</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+image: url(:/Images/Images/home .png);
+background-color: #eee9e2;
+color: #222;
+border-radius:20px</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="login_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>411</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/images/Images/textured-background-white-tone_53876-128610.jpg);
+background-color: #eee9e2;
+color: #222;
+border-radius:20px</string>
+   </property>
+   <property name="inputMethodHints">
+    <set>Qt::ImhPreferNumbers</set>
+   </property>
+   <property name="title">
+    <string>Welcome!!</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <widget class="QPushButton" name="signupbutton_4">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>160</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+#signupbutton{
+border-image: url(:/images/Images/signup-2.png);
+
+color:white;
+background-color:rgb(255, 131, 45);
+border-width:0px;
+border-radius:9px;
+}
+#singupbutton:hover {
+background-color:#66c011;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>170</y>
+      <width>151</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/Images/Images/briefcase.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>290</y>
+      <width>311</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>21</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>         KARYALAYA</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
